@@ -9,6 +9,6 @@ def badge_creator(attendee)
   end
 end
 #return list of badge messages
-badge_creator
+
 
 #
