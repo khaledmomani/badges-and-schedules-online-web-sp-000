@@ -12,7 +12,7 @@ end
 
 def assign_rooms(name)
   name.each_with_index.map do |name, index|
-    return ["Hello, #{name}! You'll be assigned to room #{index+1}!"]
+    return "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
 end 
 #
