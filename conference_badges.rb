@@ -23,3 +23,4 @@ end
 assign_rooms(attendee).each do |paper|
   puts "#{paper}"
 end
+end
