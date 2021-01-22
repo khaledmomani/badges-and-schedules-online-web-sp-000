@@ -10,5 +10,7 @@ def batch_badge_creator(attendee)
 end
 #return list of badge messages
 
+def assgin_rooms(name)
+  
 
 #
