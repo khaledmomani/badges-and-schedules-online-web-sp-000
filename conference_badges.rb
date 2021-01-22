@@ -17,7 +17,7 @@ def assign_rooms(names)
 end 
 
 def printer(attendee)
-  attendee.map do |atn|
-  puts "Hello, my name is #{atn}."
+  attendee.map do |name|
+  puts "Hello, #{name}! You'll be assigned to room #{index+1}!"
 end 
 end
