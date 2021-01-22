@@ -4,7 +4,7 @@ def badge_maker(name)
 end 
 
 def badge_creator(attendee)
-  attendee.map do {  
+  attendee.map do { |atn| "" 
 
 #return list of badge messages
 badge_creator
