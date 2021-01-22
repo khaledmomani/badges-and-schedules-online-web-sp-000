@@ -11,6 +11,8 @@ end
 #return list of badge messages
 
 def assgin_rooms(name)
-  
-
+  name.each_with_index do |name, index|
+    return "Hello, #{name}! You'll be assigned to room #{index+1}!"
+  end
+end 
 #
