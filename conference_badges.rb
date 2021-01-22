@@ -3,8 +3,8 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end 
 
-def badge_creator(attendee, room)
-  attendee.map { |atn| "Hello, #{atn}! You'll be assigned to room " 
+def badge_creator(attendee)
+  attendee.map { |atn| "Hello, my name is #{atn}." 
 
 #return list of badge messages
 badge_creator
