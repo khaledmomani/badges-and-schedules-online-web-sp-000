@@ -19,4 +19,5 @@ end
 def printer(attendee)
   attendee.each do |atn|
   puts "Hello, my name is #{atn}."
+end 
 end
